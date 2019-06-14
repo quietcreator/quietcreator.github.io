@@ -1,0 +1,76 @@
+.room {
+}
+
+.left_room {
+    float: left;
+    margin-right: 5%;
+}
+
+.blok_img {
+}
+
+.mainfoto {
+    border: 5px solid #aba9a9;
+    border-radius: 50%;
+    width: 249px;
+    height: 249px;
+    background: url(https://pp.userapi.com/c848628/v848628635/10a700/9-hLjeCJUPQ.jpg) -156px -239px;
+    background-size: 177%;
+}
+
+.right_room {
+    float: left;
+    width: 61%;
+}
+
+.right_room__headline {
+    font-size: 250%;
+    margin: 1% 0 5% 0;
+    cursor: default;
+}
+
+.right_room__informayion {
+    cursor: default;
+    margin: 1%;
+    margin-bottom: 10%;
+    overflow: scroll;
+    height: 400px;
+    color: #00000099;
+}
+
+.right_room__informayion p {
+    font-size: 130%;
+    padding-bottom: 2%;
+}
+
+.right_room__bott_blok {
+    text-align: right;
+    margin-bottom: 33%;
+    margin-top: 14%;
+}
+
+.right_room__bott_blok a {
+    text-decoration: none;  
+    font-weight: bold;
+    color: #f0646a;
+    padding-left: 10px;  
+}
+
+.download_blok {
+    border: 3px solid #f0646a;
+    padding: 11px 21px;
+    border-radius: 50px;
+    color: #f0646a;
+    width: 147px;
+    float: right;
+
+    transition: 300ms;
+}
+
+.download_blok:hover {
+    background: #ffffff;
+}
+
+.padding-right_for_icon {
+    padding-right: 6px;
+}
