@@ -21,6 +21,10 @@
 	list-style-type: none;
 }
 
+.career-list__item:href {
+	background: #33c2e9;
+}
+
 .career-list__item {
 	width: 100%;
     position: relative;
