@@ -21,7 +21,7 @@
 	list-style-type: none;
 }
 
-.career-list__item:href {
+.career-list__item:hover {
 	background: #33c2e9;
 }
 
