@@ -59,3 +59,19 @@
 .icon-mobile--style {
 	font-size: 0.8em;
 }
+
+#job1:hover .works-title {
+	color: red;
+}
+#job2:hover .works-title {
+	color: red;
+}
+#job3:hover .works-title {
+	color: red;
+}
+#job4:hover .works-title {
+	color: red;
+}
+#job5:hover .works-title {
+	color: red;
+}
