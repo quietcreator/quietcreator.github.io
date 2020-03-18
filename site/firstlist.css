@@ -1,0 +1,91 @@
+.content-first {
+	width: 270px;
+    height: 270px;
+    margin: /* 85px auto */ 0 auto;
+    position: relative;
+    top: 30%;
+    background: #fff;
+    border-radius: 10px; 
+    animation: bounse 1s cubic-bezier(.07, .74, .25, .97);
+}
+
+@keyframes bounse {
+    from { transform: scale(.3, .3); }
+    20% { transform: scale(1.1, 1.1); }
+    40% { transform: scale(.9, .9); }
+    60% { transform: scale(1.03, 1.03); }
+    80% { transform: scale(.97, .97); }
+    to { transform: scale(1, 1); }
+}
+
+.circle {
+	width: 170px;
+    height: 170px;
+	position: absolute;
+	top: -85px;
+    right: 49px;
+
+    perspective: 1000px; 
+    perspective-origin: 50% 64px;
+}
+
+.first-foto {
+	border: 1px solid #aba9a9;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    background: url(https://pp.userapi.com/c848628/v848628635/10a700/9-hLjeCJUPQ.jpg) -103px -143px;
+    background-size: 177%;
+    box-sizing: border-box;
+    /* position: absolute;
+    top: -85px;
+    right: 49px; */
+
+    transition: transform 1s;
+}
+
+.first-foto:hover {
+	transform: rotateY(360deg);
+}
+
+.conteiner-fio {
+	position: relative;
+    top: 98px;
+}
+
+.first-fio {
+	font-size: 150%;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.blue-block {
+	position: absolute;
+    bottom: 0px;
+    height: 70px;
+    width: 100%;
+    box-sizing: border-box;
+    background: hsl(186, 89%, 48%);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.button-edg {
+	border: 3px solid #fff;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 16px;
+    right: 61px;
+    padding: 9px 8px 6px 8px;
+
+    transition: 300ms;
+}
+
+.button-text {
+	color: #fff;
+    text-decoration: none;
+}
+
+.button-text:hover .button-edg {
+	background: #0ae6fd;
+}
