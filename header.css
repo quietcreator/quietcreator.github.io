@@ -1,0 +1,228 @@
+.header__left {
+    width: 50%;
+    height: 67px;
+    float: left;
+    margin: 0.5% 0;
+}
+
+.header__right {
+    width: 50%;
+    float: left;
+    margin-top: 2.2%;
+    text-align: right;
+}
+
+.head_content {
+	width: 77%;
+    height: 67px;
+}
+
+.ava {
+    float: left;
+}
+
+.ava_foto {
+	border: 3px solid #aba9a9;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background: url(https://pp.userapi.com/c848628/v848628635/10a700/9-hLjeCJUPQ.jpg) -77px -93px;
+    background-size: 279%;
+}
+
+.fio {
+    float: left;
+    font-size: x-large;
+    margin-left: 16px;
+    margin-top: 21px;
+    cursor: default;
+}
+
+.my_contact {
+    font-size: x-large;
+    text-decoration-style: dotted;
+    color: hsl(186, 89%, 48%);
+    transition: 300ms;
+    padding-bottom: 5px;
+}
+
+.my_contact:hover {
+   color: #0550ff;
+}
+
+.contacts {
+    display: inline-block;
+    position: relative;
+}
+
+.contacts:hover .my_contact{
+    color: #0550ff;
+}
+
+/* .contacts__dropdown:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 30px;
+    top: -28px;
+} */
+
+.contacts:hover .contacts__dropdown-triangle {
+    display: block;
+}
+
+.contacts__dropdown-triangle::after, .contacts__dropdown-triangle::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-width: 0px;
+    top: -11px;
+    position: absolute;
+    left: 99px;
+    transform: translate(-50%);
+}
+
+.contacts__dropdown-triangle:before {
+    border-bottom-color: #dedede;
+}
+
+.contacts__dropdown-triangle:after {
+    border-bottom-color: #fff;
+    margin-top: 1px;
+}
+
+.contacts__dropdown-triangle {
+    width: 161px;
+    background: #fff;
+    margin-top: 9px;
+    position: absolute;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    right: -25px;
+    padding: 15px 20px;
+    display: none;
+}
+
+.contacts__dropdown-list {
+}
+
+.contacts__dropdown-link {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    clear: both;
+}
+
+.mb {
+    margin-bottom: 15px;
+}
+
+.icon-envelope-open--style {
+    font-size: 0.8em;
+    color: #33c1e3;
+    display: block;
+    float: left;
+}
+
+.contacts__dropdown-text {
+    padding-left: 12px;
+    color: #414141;
+    display: block;
+    float: left;
+    position: relative;
+    bottom: 2px;
+}
+
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts-letter/icomoon.eot?ghpa5q');
+  src:  url('fonts-letter/icomoon.eot?ghpa5q#iefix') format('embedded-opentype'),
+    url('fonts-letter/icomoon.ttf?ghpa5q') format('truetype'),
+    url('fonts-letter/icomoon.woff?ghpa5q') format('woff'),
+    url('fonts-letter/icomoon.svg?ghpa5q#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-envelope-open:before {
+  content: "\f2b6";
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts-skype/icomoon.eot?pstdeo');
+  src:  url('fonts-skype/icomoon.eot?pstdeo#iefix') format('embedded-opentype'),
+    url('fonts-skype/icomoon.ttf?pstdeo') format('truetype'),
+    url('fonts-skype/icomoon.woff?pstdeo') format('woff'),
+    url('fonts-skype/icomoon.svg?pstdeo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-skype:before {
+  content: "\f17e";
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts-phone/icomoon.eot?lupegn');
+  src:  url('fonts-phone/icomoon.eot?lupegn#iefix') format('embedded-opentype'),
+    url('fonts-phone/icomoon.ttf?lupegn') format('truetype'),
+    url('fonts-phone/icomoon.woff?lupegn') format('woff'),
+    url('fonts-phone/icomoon.svg?lupegn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: "\f095";
+}
